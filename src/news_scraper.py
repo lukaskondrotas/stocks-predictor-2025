@@ -57,7 +57,7 @@ class NewsScraper:
     
     def scrape_yahoo_finance_news(self, ticker: str) -> List[Dict[str, str]]:
         """Scrape news from Yahoo Finance"""
-        url = f"https://finance.yahoo.com/quote/{ticker}/news"
+        url = f"https://finance.yahoo.com/quote/{ticker}/"
         articles = []
         
         try:
