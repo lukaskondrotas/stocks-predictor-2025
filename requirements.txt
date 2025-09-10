@@ -1,0 +1,9 @@
+yfinance
+requests
+beautifulsoup4
+python-dotenv
+anthropic
+pandas
+numpy
+lxml
+ta
